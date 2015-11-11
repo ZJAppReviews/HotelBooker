@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StarRating">
+            <connections>
+                <outlet property="star1" destination="ILo-7C-oqb" id="qdJ-Ix-7we"/>
+                <outlet property="star2" destination="4f5-48-arb" id="QpR-wn-5gi"/>
+                <outlet property="star3" destination="5wJ-yB-mGo" id="J36-yE-YKu"/>
+                <outlet property="star4" destination="Cqc-m6-tcM" id="t7e-Ta-VMr"/>
+                <outlet property="star5" destination="9J9-Sf-ajZ" id="wX9-Pz-KnT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="71" height="10"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4zr-l5-Pms" userLabel="star container">
+                    <rect key="frame" x="0.0" y="0.0" width="71" height="10"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_star_deselected" translatesAutoresizingMaskIntoConstraints="NO" id="ILo-7C-oqb" userLabel="star1">
+                            <rect key="frame" x="0.0" y="0.0" width="11" height="10"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_star_deselected" translatesAutoresizingMaskIntoConstraints="NO" id="4f5-48-arb" userLabel="star2">
+                            <rect key="frame" x="15" y="0.0" width="11" height="10"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_star_deselected" translatesAutoresizingMaskIntoConstraints="NO" id="5wJ-yB-mGo" userLabel="star3">
+                            <rect key="frame" x="30" y="0.0" width="11" height="10"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_star_deselected" translatesAutoresizingMaskIntoConstraints="NO" id="Cqc-m6-tcM" userLabel="star4">
+                            <rect key="frame" x="45" y="0.0" width="11" height="10"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_star_deselected" translatesAutoresizingMaskIntoConstraints="NO" id="9J9-Sf-ajZ" userLabel="star5">
+                            <rect key="frame" x="60" y="0.0" width="11" height="10"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="9J9-Sf-ajZ" secondAttribute="trailing" id="61h-xW-gHN"/>
+                        <constraint firstItem="4f5-48-arb" firstAttribute="leading" secondItem="ILo-7C-oqb" secondAttribute="trailing" constant="4" id="9Hd-hq-E7m"/>
+                        <constraint firstItem="ILo-7C-oqb" firstAttribute="top" secondItem="4zr-l5-Pms" secondAttribute="top" id="AZh-Tt-bKd"/>
+                        <constraint firstItem="Cqc-m6-tcM" firstAttribute="bottom" secondItem="9J9-Sf-ajZ" secondAttribute="bottom" id="Emz-ph-9Nw"/>
+                        <constraint firstItem="Cqc-m6-tcM" firstAttribute="bottom" secondItem="ILo-7C-oqb" secondAttribute="bottom" id="K1d-wa-gjJ"/>
+                        <constraint firstItem="Cqc-m6-tcM" firstAttribute="top" secondItem="5wJ-yB-mGo" secondAttribute="top" id="MPH-lg-FOB"/>
+                        <constraint firstItem="Cqc-m6-tcM" firstAttribute="bottom" secondItem="5wJ-yB-mGo" secondAttribute="bottom" id="Mr9-zH-FOv"/>
+                        <constraint firstItem="9J9-Sf-ajZ" firstAttribute="leading" secondItem="Cqc-m6-tcM" secondAttribute="trailing" constant="4" id="SxC-zL-Li0"/>
+                        <constraint firstItem="Cqc-m6-tcM" firstAttribute="top" secondItem="ILo-7C-oqb" secondAttribute="top" id="WSV-Un-w8o"/>
+                        <constraint firstItem="5wJ-yB-mGo" firstAttribute="leading" secondItem="4f5-48-arb" secondAttribute="trailing" constant="4" id="Xee-yl-FbY"/>
+                        <constraint firstItem="ILo-7C-oqb" firstAttribute="leading" secondItem="4zr-l5-Pms" secondAttribute="leading" id="aEE-qz-Gss"/>
+                        <constraint firstItem="Cqc-m6-tcM" firstAttribute="top" secondItem="4f5-48-arb" secondAttribute="top" id="cZP-ja-ebl"/>
+                        <constraint firstAttribute="bottom" secondItem="ILo-7C-oqb" secondAttribute="bottom" id="d4U-8U-Cx0"/>
+                        <constraint firstItem="Cqc-m6-tcM" firstAttribute="leading" secondItem="5wJ-yB-mGo" secondAttribute="trailing" constant="4" id="jVb-hN-d2h"/>
+                        <constraint firstItem="Cqc-m6-tcM" firstAttribute="bottom" secondItem="4f5-48-arb" secondAttribute="bottom" id="lPV-4a-iuB"/>
+                        <constraint firstItem="Cqc-m6-tcM" firstAttribute="top" secondItem="9J9-Sf-ajZ" secondAttribute="top" id="xAz-cL-C3U"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="4zr-l5-Pms" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="14v-6s-6Kq"/>
+                <constraint firstAttribute="trailing" secondItem="4zr-l5-Pms" secondAttribute="trailing" id="M9I-09-vau"/>
+                <constraint firstAttribute="bottom" secondItem="4zr-l5-Pms" secondAttribute="bottom" id="fI2-Bq-9Xo"/>
+                <constraint firstItem="4zr-l5-Pms" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vIW-00-dSN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_star_deselected" width="11" height="10"/>
+    </resources>
+</document>

@@ -1,0 +1,33 @@
+//
+//  Hotel-Booker-Prefix.pch
+//  Hotel Booker
+//
+//  Created by Matt Graham on 12/05/2015.
+//  Copyright (c) 2015 Travelport. All rights reserved.
+//
+
+#import <Availability.h>
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
+
+	#ifndef __IPHONE_7_0
+		#warning "This project uses features only available in iPhone SDK 7.0 and later."
+	#endif
+
+	#ifndef DEBUG
+		#define NSLog(...)	/* suppress NSLog when in release mode */
+	#endif
+
+	#ifdef __OBJC__
+		#import <UIKit/UIKit.h>
+		#import <Foundation/Foundation.h>
+		#import <SystemConfiguration/SystemConfiguration.h>
+		#import <MobileCoreServices/MobileCoreServices.h>
+	#endif
+#else
+	#ifdef __OBJC__
+		#import <Cocoa/Cocoa.h>
+		#import <SystemConfiguration/SystemConfiguration.h>
+		#import <CoreServices/CoreServices.h>
+	#endif
+#endif
