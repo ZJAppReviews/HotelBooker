@@ -1,5 +1,5 @@
 # Hotel iOS Application
-The Hotel iOS App is an application that shows Hotel shopping and booking. It provides a settings panel that allows you to switch between sending requests to the Travelport Pre-Production or Production systems.  
+The Hotel iOS App is an application that shows Hotel shopping and booking. It allows you to enter a search location, see results for your location, choose a hotel, and book the reservation (Pre-Production only). You can switch between sending requests to the Pre-Production and Production systems using a Settings panel in the App. 
 
 <b>Purpose</b>
 <p>The App is a proof-of-concept that Travelport created to show how we may make Universal API available via JSON messages. The code showcases using Universal API in a mobile environment with JSON messages over XML and can be downloaded to interactively see our JSON and Universal API design. The application can be viewed using a simulator, such as Xcode. Online help can be found at: https://support.travelport.com/webhelp/JSON/Content/Overview.htm
