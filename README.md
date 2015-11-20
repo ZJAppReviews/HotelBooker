@@ -1,5 +1,5 @@
 # Hotel iOS Application
-The Hotel iOS App is an application that shows Hotel shopping and booking. It allows you to:
+The Hotel iOS App is an application that shows Hotel shopping and booking and allows you to:
 <ul>
 <li>Search for hotels based on a city location using lat/long.</li>
 <li>Sort search results by price/distance and star ratings.</li>
