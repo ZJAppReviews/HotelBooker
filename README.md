@@ -1,13 +1,3 @@
-
-
-<a>
-<b>Are you PCI compliant? On March 1, 2018, Travelport will only accept TLS 1.2.</b> 
- 
- https://marketing.cloud.travelport.com/PCI_DSS_compliance
-
-</a>
-
-
 # Hotel iOS Application
 The Hotel iOS App is an application that shows Hotel shopping and booking and allows you to:
 <ul>
